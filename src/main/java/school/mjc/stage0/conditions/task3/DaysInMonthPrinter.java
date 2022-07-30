@@ -5,6 +5,8 @@ public class DaysInMonthPrinter {
     public void amountOfDays(int month) {
         if(month> 0 && month < 13){
             System.out.println(days[month-1]);
+
+
         }else {
             System.out.println("wrong number!");
         }
